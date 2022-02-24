@@ -21,6 +21,23 @@ echo "<br>";
 echo chunk_split("welcome to",2);
 echo "<br>";
 
+//echo convert_uuencode("");
+/*
+ * explode()
+ * implode()
+ * count()
+ * count_chars()
+ * join()
+ * print_r()
+ * fprintf()
+ */
+
+echo number_format(10000,2,'\'','+');// can work with 1,2,3,4 parameters
+echo "<br>";
+
+
+echo htmlspecialchars_encode("");
+
 
 
 ?>
